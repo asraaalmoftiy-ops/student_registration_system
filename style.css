@@ -1,0 +1,86 @@
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f2fe 0%, #f8fafc 100%);
+}
+
+.page-title {
+    color: #0d6efd;
+}
+
+
+.register-card,
+.login-card,
+.home-card,
+.list-card,
+.form-card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+.form-control {
+    padding: 0.6rem 0.9rem;
+    border-radius: 0.5rem;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+
+.btn-submit {
+    padding: 0.7rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+}
+
+.menu-btn {
+    padding: 0.8rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+}
+
+.login-link,
+.register-link {
+    text-decoration: none;
+}
+
+
+.table th {
+    white-space: nowrap;
+}
+
+.student-photo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.current-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 0.75rem;
+}
+
+
+#validation-message:empty {
+    display: none;
+}
+
+[data-bs-theme="dark"] body {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+[data-bs-theme="dark"] .page-title {
+    color: #6ea8fe;
+}
+
+[data-bs-theme="dark"] .card {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
